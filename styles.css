@@ -1,0 +1,124 @@
+:root{
+    --border-color: #EBEAED;
+    --background-color: #FFF;
+    --text-color: rgba(21, 20, 57, 0.40);
+    --main-text-color: #1E0E62;
+    --action-color: #482BE7;
+}
+body{
+    font-family: 'DM Sans',sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-section{
+    max-width: 1170px;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-small{
+    width: 570px;
+    height: 320px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid var(--border-color);
+    background: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-wrapper{
+    width: 50%;
+}
+
+.company-name{
+    font-size: 14px;
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+.product-name{
+    color: var(--main-text-color);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.product-specfications{
+    margin-bottom: 52px;
+}
+.product-specfications li{
+    color: var(--text-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 19px;
+    padding-bottom: 6px;
+}
+.add-to-cart {
+    color: var(--main-text-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    border: 2.6px solid var(--border-color);
+    background-color: var(--background-color);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.price-tag{
+    color: var(--action-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    margin-left: 17px;
+}
+
+.card-2{
+    margin-top: 30px;
+}
+
+.card-large{
+    width: 570px;
+    height: 98%;
+    flex-direction: column;
+}
+.ul-wrapper-lg{
+    display: flex;
+}
+.product-specfication-lg{
+    margin-bottom: 30px;
+    padding-right :30px;
+}
+.card-lg-text{
+    color: var(--text-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 28px;
+    padding-top: 25px;
+}
+.cards-wrapper-1{
+    padding-right: 30px;
+}
